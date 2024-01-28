@@ -1,0 +1,29 @@
+.card{
+    margin: 30px;
+
+}
+
+.image{
+    padding: 10px;
+}
+
+.name{
+    padding-top:10px;
+}
+
+.description{
+    padding: 3px;
+}
+
+.price{
+    padding-top: 3px;
+}
+
+.body{
+  text-align: center;
+  color: grey;
+}
+
+.name:hover{
+    color: rgb(5, 141, 5);
+}

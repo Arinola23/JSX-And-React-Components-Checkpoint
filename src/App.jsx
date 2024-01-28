@@ -6,16 +6,28 @@ import Name from './components/name'
 import Price from './components/price'
 import Products from './Products/products'
 
-function App() {
+let firstName = ''
  
+function App() {
 
   return (
     <>
-      <Description/>
-      <Image/>
-      <Name/>
-      <Price/>
-      <Products/>
+    <div className='card'>
+        <Products/>
+        <Image/>
+     <div className='body'>
+        <Name/>
+        <Description/>
+         <Price/>
+      </div>
+      <div>
+        <p>{firstName ? `Hello, ${firstName}!`:`Hello, There!`}</p>
+         <input type="text" placeholder='enter FirstName' />
+         {firstName && <img src="https://via.placeholder.com/150" alt="Your First Name" />}
+
+      </div>
+   </div>
+
     </>
   )
 }

@@ -2,7 +2,9 @@ import React from 'react'
 
 const image = () => {
   return (
-    <div>image</div>
+    <div className='image'>
+      <img src="pink rose.webp" alt="Three Pink Roses " />
+    </div>
   )
 }
 
