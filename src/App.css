@@ -27,3 +27,8 @@
 .name:hover{
     color: rgb(5, 141, 5);
 }
+
+.firstname{
+    color: rgb(25, 25, 129);
+    font-size: 30px;
+}

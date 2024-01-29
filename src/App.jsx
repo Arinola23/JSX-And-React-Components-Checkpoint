@@ -9,8 +9,7 @@ import Products from './Products/products'
 let firstName = ''
  
 function App() {
-
-  return (
+    return (
     <>
     <div className='card'>
         <Products/>
@@ -21,8 +20,8 @@ function App() {
          <Price/>
       </div>
       <div>
-        <p>{firstName ? `Hello, ${firstName}!`:`Hello, There!`}</p>
-         <input type="text" placeholder='enter FirstName' />
+        <p className='firstname'>{firstName ? `Hello, ${firstName}!`:`Hello, There!`}</p>
+             {/* image will display if there is a firstname */}
          {firstName && <img src="https://via.placeholder.com/150" alt="Your First Name" />}
 
       </div>
